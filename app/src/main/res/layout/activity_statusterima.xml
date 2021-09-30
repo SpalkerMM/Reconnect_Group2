@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="731dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/bgstatustolak" />
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="431dp"
+        android:src="@drawable/bgkuning" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="358dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-146dp"
+        android:src="@drawable/homestatustolak" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="208dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="0dp"
+        android:text="Penawaran"
+        android:textColor="#131211"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="276dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-136dp"
+        android:text="Status"
+        android:textColor="#131212"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="612dp"
+        android:text="Tangal 17-09-2021"
+        android:textColor="#E43535"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="540dp"
+        android:textColor="#2E2D2D"
+        android:textSize="20sp"
+        tools:text="Sampah anda telah terjual kepada Pak Covidi senilai Rp.10.000" />

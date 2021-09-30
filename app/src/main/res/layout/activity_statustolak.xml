@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="731dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/bgstatustolak" />
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="340dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-18dp"
+        android:layout_marginBottom="424dp"
+        android:src="@drawable/bgkuning" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="358dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-146dp"
+        android:src="@drawable/homestatustolak" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="212dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="160dp"
+        android:text="Penawaran"
+        android:textColor="#131212"
+        android:textSize="28sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="605dp"
+        android:text="Tanggal 17-09-2021"
+        android:textColor="#E43535"
+        android:textSize="24" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="522dp"
+        android:text="Anda menolak menjual sampah kepada Pak Abdul"
+        android:textColor="#2E2D2D"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-80dp"
+        android:layout_marginBottom="682dp"
+        android:text="Detail Sampah"
+        android:textColor="#131212"
+        android:textSize="26sp"
+        android:textStyle="bold" />

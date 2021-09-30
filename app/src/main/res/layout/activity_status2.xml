@@ -1,0 +1,137 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="834dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-69dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/bghijau2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/Home" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-26dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="412dp"
+        android:src="@drawable/bgkuning2" />
+
+    <TextView
+        android:id="@+id/penawaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="692dp"
+        android:text="Penawaran"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="691dp"
+        android:text="Status"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="656dp"
+        android:text="Tanggal 17-09-2021" />
+
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="343dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="602dp"
+        android:text="Anda telah membeli sampah Hendra Purba dengan harga Rp 10.000" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="582dp"
+        android:text="Lokasi Penjual" />
+
+    <TextView
+        android:id="@+id/tgl2"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="531dp"
+        android:text="Padang, Jl. Kampuang Kec. Jauh di mato No.15 Telepon 08125432112" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="471dp"
+        android:src="@drawable/jemput" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="471dp"
+        android:src="@drawable/batal" />
+
+
+
+
+
+
+
+
+
+

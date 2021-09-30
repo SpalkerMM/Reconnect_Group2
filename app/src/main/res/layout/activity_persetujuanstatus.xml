@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="694dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/bgstatustolak" />
+
+    <ImageView
+        android:layout_width="432dp"
+        android:layout_height="326dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="417dp"
+        android:src="@drawable/bgkuning" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="358dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-146dp"
+        android:src="@drawable/homestatustolak" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="664dp"
+        android:text="Penawaran"
+        android:textColor="#131211"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="173dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-19dp"
+        android:layout_marginBottom="667dp"
+        android:text="Status"
+        android:textColor="#131211"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="404dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="596dp"
+        android:text="Tanggal 17-09-2021"
+        android:textColor="#E43535"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="409dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="572dp"
+        android:text="Pak Covidi ingin membeli sampah anda dengan harga Rp.10.000"
+        android:textColor="#2E2D2D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="311dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="573dp"
+        android:text="Lokasi Pembeli"
+        android:textColor="#2E2D2D" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="561dp"
+        android:text="Binjai Jl. Patimura No.12"
+        android:textColor="#2E2D2D" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="348dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="525dp"
+        android:text="Telpon 08123454321"
+        android:textColor="#3E2D2D" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="398dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="422dp"
+        android:backgroundTint="#F4DD0B"
+        app:srcCompat="@drawable/terimatolak" />
+
+
+
